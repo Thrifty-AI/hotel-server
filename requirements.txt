@@ -153,7 +153,7 @@ tbb==2021.11.0
 tensorboardX==2.6.2.2
 threadpoolctl==3.2.0
 tldextract==5.1.2
-# tokenizers==0.13.3
+tokenizers==0.13.3
 # torch==2.4.0+cu121
 # torch-audiomentations==0.11.1
 # torch-pitch-shift==1.2.4

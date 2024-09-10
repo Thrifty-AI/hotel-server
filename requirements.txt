@@ -109,9 +109,9 @@ pycparser==2.21
 Pygments==2.18.0
 pyparsing==3.1.4
 pyreadline3==3.4.1
-PySide6==6.6.2
-PySide6_Addons==6.6.2
-PySide6_Essentials==6.6.2
+# PySide6==6.6.2
+# PySide6_Addons==6.6.2
+# PySide6_Essentials==6.6.2
 PySocks==1.7.1
 python-dateutil==2.8.2
 python-dotenv==1.0.1
@@ -144,7 +144,7 @@ six==1.16.0
 sortedcontainers==2.4.0
 soundfile==0.12.1
 soxr==0.3.6
-speechbrain==1.0.0
+# speechbrain==1.0.0
 SQLAlchemy==2.0.32
 stack-data==0.6.3
 sympy==1.12

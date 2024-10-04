@@ -57,7 +57,7 @@ def register_routes(app):
 
     @app.route("/fetch-details/<phone_number>", methods=["GET"])
     def fetch_details(phone_number):
-        print("request: ", phone_number)
+        logging.info(f"request: {phone_number}")
         for i in data:
             if i["phone_number"] == str(phone_number):
                 return jsonify({"users_details": i, "success": True}), 200
@@ -107,7 +107,7 @@ def register_routes(app):
 
     @app.route("/upload-document", methods=["POST"])
     def upload_image():
-        print("Request for document upload")
+        logging.info("Request for document upload")
         try:
             # Get the data from the request
             data = request.json  # Assuming the image is sent as JSON
@@ -137,7 +137,7 @@ def register_routes(app):
 
     @app.route("/capture-image", methods=["POST"])
     def capture_image():
-        print("Request for image compliment")
+        logging.info("Request for image compliment")
         try:
             # Get the data from the request
             data = request.json  # Assuming the image is sent as JSON
@@ -162,7 +162,7 @@ def register_routes(app):
         
         data = request.json
         response = {}
-        print("request to fetch user description")
+        logging.info("request to fetch user description")
         with open('user_description.txt', 'r') as file:
             response['compliment'] = file.read()
         try:

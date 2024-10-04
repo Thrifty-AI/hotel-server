@@ -149,7 +149,7 @@ def process_document(image_url):
 
     result = client.chat.completions.create(**params)
     description = result.choices[0].message.content
-    print(f"\nExtracted document information:\n{description}")
+    logging.info(f"\nExtracted document information:\n{description}")
 
 def parse_description(description):
     """Parse the description into a dictionary format."""

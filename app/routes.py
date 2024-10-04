@@ -5,6 +5,7 @@ from .final_text import process_compliment
 from datetime import datetime
 import os
 import base64
+import logging
 
 
 data = [
@@ -165,7 +166,7 @@ def register_routes(app):
         with open('user_description.txt', 'r') as file:
             response['compliment'] = file.read()
         try:
-            print(response)
+            logging.info(f"{response}")
             return jsonify({'message': response})
         
         except Exception as e: 

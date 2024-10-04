@@ -97,9 +97,9 @@ def process_compliment(image_url):
 
     compliment = generate_compliment(parsed_description)
     
-    print(f"\nDescription:\n{parsed_description}")
+    logging.info(f"\nDescription:\n{parsed_description}")
     # print(f"\nCompliment:\n{compliment}")
-    print(f"\n{compliment}")
+    logging.info(f"\n{compliment}")
     with open('user_description.txt', 'w') as file:
         file.write(compliment)
 

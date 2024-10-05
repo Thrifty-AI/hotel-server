@@ -75,7 +75,7 @@ def init_payment(
         ).json()
 
     except Exception as e:
-        print(traceback.format_exc())
+        logging.info(f'{traceback.format_exc()}')
 
         return {
             "success": False,
@@ -87,16 +87,16 @@ def init_payment(
         }
 
     ptrn = resp.get("PlutusTransactionReferenceID")
-    print(f"ptrn : {ptrn}")
-    print(f"txn_id : {txn_id}")
-    print(f"init payment resp data: {resp}")
+    logging.info(f"ptrn : {ptrn}")
+    logging.info(f"txn_id : {txn_id}")
+    logging.info(f"init payment resp data: {resp}")
 
     if callable(set_ptrn_callback):
         try:
             set_ptrn_callback(ptrn)
         except Exception:
-            print("error calling callback !!")
-            print(traceback.format_exc())
+            logging.info("error calling callback !!")
+            logging.info(f"{traceback.format_exc()}")
 
     if resp.get("ResponseCode") != 0:
         return {
@@ -127,7 +127,7 @@ def init_payment(
         try:
             status = get_payment_status(ptrn, payment_imei, payment_pos_code)
         except Exception:
-            print(traceback.format_exc())
+            logging.info(f"{traceback.format_exc()}")
         time.sleep(3)
 
     return {
@@ -173,7 +173,7 @@ def cancel_payment(
             },
         ).json()
 
-        print(f"cancel payment resp data : {resp}")
+        logging.info(f"cancel payment resp data : {resp}")
 
         return {
             "success": resp.get("ResponseCode") == 0,
@@ -185,10 +185,10 @@ def cancel_payment(
         }
 
     except Exception as e:
-        print(
+        logging.info(
             f"Error while cancelling transaction for amount {amount} and ptrn : {ptrn}"
         )
-        print(traceback.format_exc())
+        logging.info(f"{traceback.format_exc()}")
         return {
             "success": False,
             "data": {"ptrn": ptrn, "amount": amount},
@@ -198,7 +198,7 @@ def cancel_payment(
 
 def get_payment_status(ptrn, payment_imei, payment_pos_code):
 
-    print(f"getting payment status for ptrn : {ptrn}")
+    logging.info(f"getting payment status for ptrn : {ptrn}")
 
     resp = requests.post(
         payment_api_url + "/GetCloudBasedTxnStatus",

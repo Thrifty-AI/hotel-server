@@ -12,7 +12,7 @@ socketio = SocketIO()
 
 def handle_connect():
     try:
-        print(request.args)
+        logging.info(f"{request.args}")
         args = request.args
         state[request.sid] = {}
 
@@ -22,7 +22,7 @@ def handle_connect():
 
         if missing_keys:
             error_message = f"Missing keys: {', '.join(missing_keys)}"
-            print(error_message)
+            logging.info(f"{error_message}")
             emit("error", error_message)
             disconnect()
             # return disconnect()
@@ -56,7 +56,7 @@ def handle_connect():
             "imei": args["imei"]
         }      
         
-        print("connected !")
+        logging.info("connected !")
         emit("message", {"data": "Connected to server"})
 
     except Exception as e:
@@ -93,7 +93,7 @@ def handle_payment(payment_mode):
 
 def handle_disconnect():
     # You can perform cleanup or logging here
-    print("Client disconnected")
+    logging.info("Client disconnected")
     if state.get(request.sid, {}).get("ptrn"):
         logging.info(f"cancelling transaction {state[request.sid]['ptrn']}")
         cancel_payment(
@@ -125,6 +125,5 @@ socketio.on_event("cancel_payment", handle_cancel_payment)
 
 @socketio.on_error_default
 def default_error_handler(e):
-    logging.info(traceback.format_exc())
-    print(traceback.format_exc())
+    logging.info(f"{traceback.format_exc()}")
     emit("error", f"error occured : {request.event['message']}")

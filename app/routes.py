@@ -49,6 +49,17 @@ room_data = [
     },
 ]
 
+images_urls = {
+                'image_swimming_pool': ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h1.jpeg','https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h2.jpg'],
+                'image_spa': ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h3.jpeg', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h4.jpeg'],
+                'image_fitness_center': ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h5.jpeg', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h6.jpeg'],
+                'image_business_center': ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h7.jpg', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h8.jpeg'],
+                'image_dining_hall': ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h9.jpeg','https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h10.jpeg'],
+                'image_standard_room' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h11.jpeg'],
+                'image_deluxe_room' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h12.jpg'],
+                'image_play_ground' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h12.jpg']
+               }
+
 
 def register_routes(app):
     @app.route("/")
@@ -171,3 +182,15 @@ def register_routes(app):
         
         except Exception as e: 
             return jsonify({"error": str(e)}), 500
+
+
+    @app.route("/fetch-images", methods=['POST'])
+    def fetch_images():
+        response = {}
+        data = request.get_json()
+        if data['function_name'] in images_urls:
+            response['urls'] = images_urls[data['function_name']]
+            print(response)
+            return {'message': response}
+        
+        return 'invalid function'

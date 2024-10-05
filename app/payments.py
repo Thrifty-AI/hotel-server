@@ -5,6 +5,8 @@ from flask import request
 import os
 import logging
 import traceback
+from dotenv import load_dotenv
+load_dotenv()
 
 AutoCancelDurationInMinutes = 3
 
@@ -17,7 +19,9 @@ AutoCancelDurationInMinutes = 3
     os.environ.get("PAYMENT_SECURITY_TOKEN"),
     os.environ.get("PAYMENT_API_URL"),
 )
-
+logging.info(f"PAYMENT_MERCHANT_ID: {os.environ.get("PAYMENT_MERCHANT_ID")}")
+logging.info(f"PAYMENT_SECURITY_TOKEN: {os.environ.get("PAYMENT_SECURITY_TOKEN")}")
+logging.info(f"PAYMENT_API_URL: {os.environ.get("PAYMENT_API_URL")}")
 
 def init_payment(
     amount,

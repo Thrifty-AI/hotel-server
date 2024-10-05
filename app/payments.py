@@ -55,7 +55,7 @@ def init_payment(
     try:
 
         resp = requests.post(
-            payment_api_url + "/UploadBilledTransaction",
+            str(payment_api_url) + "/UploadBilledTransaction",
             json={
                 "TransactionNumber": txn_id,
                 "SequenceNumber": 1,

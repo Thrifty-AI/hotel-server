@@ -160,9 +160,9 @@ def register_routes(app):
             if image_data.startswith('data:image'):
                 image_data = image_data.split(',')[1]
 
-            process_compliment(image_data)            
+            compliment = process_compliment(image_data)            
             # Return a success message
-            return jsonify({"message": "Image uploaded successfully"}), 200
+            return jsonify({"message": "Image uploaded successfully", "compliment": compliment}), 200
 
         except Exception as e:
             return jsonify({"error": str(e)}), 500

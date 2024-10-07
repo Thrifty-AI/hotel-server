@@ -129,6 +129,8 @@ def process_compliment(image_path):
     with open('user_description.txt', 'w') as file:
         file.write(compliment)
 
+    return compliment
+
 def process_document(image_url):
     """Analyze the document image and extract information."""
 

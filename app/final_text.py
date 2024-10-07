@@ -1,19 +1,25 @@
 import os
 import logging
-import re
-import requests
+import base64
 from openai import OpenAI
 from datetime import datetime
 from dotenv import load_dotenv
 
 
 load_dotenv()
+
+# Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Initialize OpenAI client
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 user_description = ''
+
+
+
+
 
 def generate_compliment(description):
     """Generate a compliment based on the description using OpenAI."""
@@ -49,60 +55,79 @@ def generate_compliment(description):
     compliment = result.choices[0].message.content
     return compliment
 
-
-def process_compliment(image_url):
-
-    """Analyze the image and generate a compliment based on its description."""
-    
+def process_compliment(image_path):
+    """Process the captured frame: generate a description and compliment, print side by side."""
     params = {
-        "model": "gpt-4o-mini",
-        "messages": [{
-            "role": "system",
-            "content": (
-                """
-                Analyze the customer's facial expression and provide a detailed assessment based on their demeanor.
-                Evaluate the following aspects based on the customer's appearance and provide output in the format below (strictly follow the format):
+            "model": "gpt-4o-mini",
+            "messages": [
+                {
+                "role": "system",
+                "content": (
+                    """
+                    Analyze the customer's facial expression and provide a detailed assessment based on their demeanor.
+                    Evaluate the following aspects of the customer:
+                    - Attire: {Describe the customer’s clothing and style in detail}
+                    - Gender: {Male, Female, Other}
+                    """
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": 
+                        [
+                            {
+                                "type": "text",
+                                "text": "Analyze the person in this image"
+                            },
+                            {
+                                "type": "image_url",
+                                "image_url": 
+                                    {
+                                        "url": f"data:image/jpeg;base64,{image_path}"
+                                    }
+                            }
+                        ]
+                }
+            ],
+        "response_format" : {
+            "type": "json_schema",
+            "json_schema" : {
+            "name": "output_format",
+            "strict": True,
+            "schema" : {
+                "type": "object",
+                "properties" : {
+                    "Attire": {
+                        "type" : "string",
+                        "description" : "Describe the customer’s clothing and style in detail."                    
+                    },
+                    "Gender" : {
+                        "type":"string",
+                        "description" : "Male, Female, Other."
+                    }
+                },
+                    "required": ["Attire", "Gender"],
+                    "additionalProperties": False
+            }
 
-                - Attire: {Describe the customer’s clothing and style in detail}
-                - Gender: {Male, Female, Other}
-                """
-            ),
+            }
         },
-
-    {
-      "role": "user",
-      "content": [
-        {
-          "type": "text",
-          "text": "Analyze the person in this image"
-        },
-        {
-          "type": "image_url",
-          "image_url": {
-            "url": f"data:image/jpeg;base64,{image_url}"
-          }
-        }
-      ]
-    }
-  ],
         "temperature": 0.1,
         "top_p": 1,
         "frequency_penalty": 0.2,
         "presence_penalty": 0.1,
     }
-
+    
     result = client.chat.completions.create(**params)
     description = result.choices[0].message.content
-    parsed_description = parse_description(description)
 
-    compliment = generate_compliment(parsed_description)
+    compliment = generate_compliment(description)
     
-    logging.info(f"\nDescription:\n{parsed_description}")
+    logging.info(f"\nDescription:\n{description}")
     # print(f"\nCompliment:\n{compliment}")
     logging.info(f"\n{compliment}")
     with open('user_description.txt', 'w') as file:
         file.write(compliment)
-
 
 def process_document(image_url):
     """Analyze the document image and extract information."""
@@ -150,16 +175,5 @@ def process_document(image_url):
     result = client.chat.completions.create(**params)
     description = result.choices[0].message.content
     logging.info(f"\nExtracted document information:\n{description}")
-
-def parse_description(description):
-    """Parse the description into a dictionary format."""
-    parsed_data = {}
-    try:
-        parsed_data["Attire"] = re.search(r"Attire:\s*([\w\s,]+)", description).group(1).strip() if re.search(r"Attire:\s*([\w\s,]+)", description) else "Unknown"
-        parsed_data["Gender"] = re.search(r"Gender:\s*([\w]+)", description).group(1).strip() if re.search(r"Gender:\s*([\w]+)", description) else "Unknown"
-    except AttributeError as e:
-        logger.error(f"Error parsing description: {e}")
-
-    return parsed_data
-
+    
 

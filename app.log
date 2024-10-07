@@ -5,3 +5,78 @@
 2024-10-06 23:38:01,978 - DEBUG - This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get Storage Tracing data.
 2024-10-06 23:38:03,399 - WARNING -  * Debugger is active!
 2024-10-06 23:38:03,403 - INFO -  * Debugger PIN: 462-687-871
+2024-10-07 00:08:30,098 - INFO - request: 1234567899
+2024-10-07 00:08:30,137 - INFO - 127.0.0.1 - - [07/Oct/2024 00:08:30] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:08:30,362 - INFO - 127.0.0.1 - - [07/Oct/2024 00:08:30] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:14:54,172 - INFO - request: 1234567899
+2024-10-07 00:14:54,173 - INFO - 127.0.0.1 - - [07/Oct/2024 00:14:54] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:14:54,744 - INFO - 127.0.0.1 - - [07/Oct/2024 00:14:54] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:17:55,791 - INFO - request: 1234567899
+2024-10-07 00:17:55,792 - INFO - 127.0.0.1 - - [07/Oct/2024 00:17:55] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:17:57,819 - INFO - 127.0.0.1 - - [07/Oct/2024 00:17:57] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:21:29,067 - INFO - request: 1234567899
+2024-10-07 00:21:29,069 - INFO - 127.0.0.1 - - [07/Oct/2024 00:21:29] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:21:31,162 - INFO - 127.0.0.1 - - [07/Oct/2024 00:21:31] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:22:21,499 - INFO - request: 1234567899
+2024-10-07 00:22:21,500 - INFO - 127.0.0.1 - - [07/Oct/2024 00:22:21] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:22:23,569 - INFO - 127.0.0.1 - - [07/Oct/2024 00:22:23] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:23:19,110 - INFO - request: 1234567899
+2024-10-07 00:23:19,110 - INFO - 127.0.0.1 - - [07/Oct/2024 00:23:19] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:23:21,139 - INFO - 127.0.0.1 - - [07/Oct/2024 00:23:21] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:28:44,629 - INFO - request: 1234567899
+2024-10-07 00:28:44,630 - INFO - 127.0.0.1 - - [07/Oct/2024 00:28:44] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:28:46,693 - INFO - 127.0.0.1 - - [07/Oct/2024 00:28:46] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:40:14,172 - INFO - request: 1234567899
+2024-10-07 00:40:14,173 - INFO - 127.0.0.1 - - [07/Oct/2024 00:40:14] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:40:16,252 - INFO - 127.0.0.1 - - [07/Oct/2024 00:40:16] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:43:13,631 - INFO - request: 1234567899
+2024-10-07 00:43:13,633 - INFO - 127.0.0.1 - - [07/Oct/2024 00:43:13] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:43:15,701 - INFO - 127.0.0.1 - - [07/Oct/2024 00:43:15] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:46:16,326 - INFO - request: 1234567899
+2024-10-07 00:46:16,327 - INFO - 127.0.0.1 - - [07/Oct/2024 00:46:16] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:46:18,414 - INFO - 127.0.0.1 - - [07/Oct/2024 00:46:18] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:57:37,791 - INFO - request: 1234567899
+2024-10-07 00:57:37,793 - INFO - 127.0.0.1 - - [07/Oct/2024 00:57:37] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 00:57:38,047 - INFO - 127.0.0.1 - - [07/Oct/2024 00:57:38] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 01:03:20,414 - INFO - request: 1234567899
+2024-10-07 01:03:20,415 - INFO - 127.0.0.1 - - [07/Oct/2024 01:03:20] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 01:03:20,681 - INFO - 127.0.0.1 - - [07/Oct/2024 01:03:20] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 01:09:47,291 - INFO - request: 1234567899
+2024-10-07 01:09:47,292 - INFO - 127.0.0.1 - - [07/Oct/2024 01:09:47] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 01:09:47,866 - INFO - 127.0.0.1 - - [07/Oct/2024 01:09:47] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 01:28:57,104 - INFO - request: 1234567899
+2024-10-07 01:28:57,105 - INFO - 127.0.0.1 - - [07/Oct/2024 01:28:57] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 01:28:57,688 - INFO - 127.0.0.1 - - [07/Oct/2024 01:28:57] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 01:29:33,968 - INFO - request: 1234567899
+2024-10-07 01:29:33,969 - INFO - 127.0.0.1 - - [07/Oct/2024 01:29:33] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 01:29:36,000 - INFO - 127.0.0.1 - - [07/Oct/2024 01:29:36] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:12:39,655 - INFO - request: 1234567899
+2024-10-07 02:12:39,656 - INFO - 127.0.0.1 - - [07/Oct/2024 02:12:39] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:12:40,249 - INFO - 127.0.0.1 - - [07/Oct/2024 02:12:40] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:13:11,263 - INFO - request: 1234567899
+2024-10-07 02:13:11,264 - INFO - 127.0.0.1 - - [07/Oct/2024 02:13:11] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:13:13,287 - INFO - 127.0.0.1 - - [07/Oct/2024 02:13:13] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:32:18,086 - INFO - request: 1234567899
+2024-10-07 02:32:18,087 - INFO - 127.0.0.1 - - [07/Oct/2024 02:32:18] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:32:20,107 - INFO - 127.0.0.1 - - [07/Oct/2024 02:32:20] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:34:32,852 - INFO - request: 1234567899
+2024-10-07 02:34:32,853 - INFO - 127.0.0.1 - - [07/Oct/2024 02:34:32] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:34:34,886 - INFO - 127.0.0.1 - - [07/Oct/2024 02:34:34] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:36:18,499 - INFO - request: 1234567899
+2024-10-07 02:36:18,500 - INFO - 127.0.0.1 - - [07/Oct/2024 02:36:18] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:36:20,557 - INFO - 127.0.0.1 - - [07/Oct/2024 02:36:20] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:38:17,337 - INFO - request: 1234567899
+2024-10-07 02:38:17,338 - INFO - 127.0.0.1 - - [07/Oct/2024 02:38:17] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:38:19,384 - INFO - 127.0.0.1 - - [07/Oct/2024 02:38:19] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:40:09,574 - INFO - request: 1234567899
+2024-10-07 02:40:09,575 - INFO - 127.0.0.1 - - [07/Oct/2024 02:40:09] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:40:11,614 - INFO - 127.0.0.1 - - [07/Oct/2024 02:40:11] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:40:47,233 - INFO - request: 1234567899
+2024-10-07 02:40:47,234 - INFO - 127.0.0.1 - - [07/Oct/2024 02:40:47] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:40:49,261 - INFO - 127.0.0.1 - - [07/Oct/2024 02:40:49] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-07 02:44:44,844 - INFO -  * Detected change in 'C:\\Users\\Windows 10\\Desktop\\test_hotel_server\\app\\final_text.py', reloading
+2024-10-07 02:44:45,139 - INFO - logger is ready !
+2024-10-07 02:44:45,875 - INFO - PAYMENT_MERCHANT_ID: 737783
+2024-10-07 02:44:45,875 - INFO - PAYMENT_SECURITY_TOKEN: 7a32a2ea-0f2d-4bdb-9d28-2bbe74931000
+2024-10-07 02:44:45,875 - INFO - PAYMENT_API_URL: https://www.plutuscloudservice.in:8201/API/CloudBasedIntegration/V1
+2024-10-07 02:44:46,011 - DEBUG - This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get Storage Tracing data.

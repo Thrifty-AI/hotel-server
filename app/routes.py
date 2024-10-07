@@ -75,7 +75,7 @@ def register_routes(app):
 
         return (
             jsonify(
-                {"message": "No user with this phone number found", "success": False}
+                {"message": "Sorry, No booking with this phone number exists", "success": False}
             ),
             200,
         )

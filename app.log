@@ -212,3 +212,12 @@ Your light pink collared shirt strikes the perfect balance between casual and po
 2024-10-07 03:42:49,789 - INFO -  * Detected change in 'C:\\Users\\Windows 10\\Desktop\\test_hotel_server\\app\\routes.py', reloading
 2024-10-07 03:42:50,007 - INFO -  * Restarting with stat
 2024-10-07 03:42:50,073 - INFO - logger is ready !
+2024-10-07 03:42:50,758 - INFO - PAYMENT_MERCHANT_ID: 737783
+2024-10-07 03:42:50,758 - INFO - PAYMENT_SECURITY_TOKEN: 7a32a2ea-0f2d-4bdb-9d28-2bbe74931000
+2024-10-07 03:42:50,758 - INFO - PAYMENT_API_URL: https://www.plutuscloudservice.in:8201/API/CloudBasedIntegration/V1
+2024-10-07 03:42:50,901 - DEBUG - This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get Storage Tracing data.
+2024-10-07 03:42:51,770 - WARNING -  * Debugger is active!
+2024-10-07 03:42:51,772 - INFO -  * Debugger PIN: 462-687-871
+2024-10-07 04:45:11,633 - INFO -  * Detected change in 'C:\\Users\\Windows 10\\Desktop\\test_hotel_server\\app\\routes.py', reloading
+2024-10-07 04:45:11,794 - INFO -  * Restarting with stat
+2024-10-07 04:45:11,873 - INFO - logger is ready !

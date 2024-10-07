@@ -1,3 +1,4 @@
+import app.logger
 from .socket import socketio
 from flask import Flask
 from flask_cors import CORS

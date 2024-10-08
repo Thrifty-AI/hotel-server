@@ -28,7 +28,7 @@ room_data = [
     {
         "phone_number": "1234567899",
         "description": "Junior suit with king size bed",
-        "images": ["../images/room1.png", "../images/room2.png"],
+        "images": ["../images/room2.png", "../images/room2.png"],
         "amount": 1,
         "room_type": "Deluxe Suit",
         "guests": "2 Adult(s) Mr Naman Singh Mrs Amita Singh",
@@ -75,7 +75,7 @@ def register_routes(app):
 
         return (
             jsonify(
-                {"message": "Sorry, No booking with this phone number exists", "success": False}
+                {"message": "Sorry, this is not a registered mobile number, please enter your registered mobile number", "success": False}
             ),
             200,
         )

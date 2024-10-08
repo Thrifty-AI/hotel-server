@@ -75,7 +75,7 @@ def register_routes(app):
 
         return (
             jsonify(
-                {"message": "Sorry, this is not a registered mobile number, please enter your registered mobile number", "success": False}
+                {"message": "Sorry, This number is not registered . Could you kindly share the phone number you used at the time of booking?", "success": False}
             ),
             200,
         )

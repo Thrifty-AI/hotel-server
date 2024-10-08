@@ -221,3 +221,88 @@ Your light pink collared shirt strikes the perfect balance between casual and po
 2024-10-07 04:45:11,633 - INFO -  * Detected change in 'C:\\Users\\Windows 10\\Desktop\\test_hotel_server\\app\\routes.py', reloading
 2024-10-07 04:45:11,794 - INFO -  * Restarting with stat
 2024-10-07 04:45:11,873 - INFO - logger is ready !
+2024-10-07 04:45:12,584 - INFO - PAYMENT_MERCHANT_ID: 737783
+2024-10-07 04:45:12,585 - INFO - PAYMENT_SECURITY_TOKEN: 7a32a2ea-0f2d-4bdb-9d28-2bbe74931000
+2024-10-07 04:45:12,585 - INFO - PAYMENT_API_URL: https://www.plutuscloudservice.in:8201/API/CloudBasedIntegration/V1
+2024-10-07 04:45:12,744 - DEBUG - This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get Storage Tracing data.
+2024-10-07 04:45:13,648 - WARNING -  * Debugger is active!
+2024-10-07 04:45:13,651 - INFO -  * Debugger PIN: 462-687-871
+2024-10-08 03:06:06,088 - INFO - logger is ready !
+2024-10-08 03:06:07,129 - INFO - PAYMENT_MERCHANT_ID: 737783
+2024-10-08 03:06:07,129 - INFO - PAYMENT_SECURITY_TOKEN: 7a32a2ea-0f2d-4bdb-9d28-2bbe74931000
+2024-10-08 03:06:07,130 - INFO - PAYMENT_API_URL: https://www.plutuscloudservice.in:8201/API/CloudBasedIntegration/V1
+2024-10-08 03:06:07,387 - DEBUG - This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get Storage Tracing data.
+2024-10-08 03:06:08,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-10-08 03:06:08,765 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 03:06:08,765 - INFO -  * Restarting with stat
+2024-10-08 03:06:08,832 - INFO - logger is ready !
+2024-10-08 03:06:09,466 - INFO - PAYMENT_MERCHANT_ID: 737783
+2024-10-08 03:06:09,466 - INFO - PAYMENT_SECURITY_TOKEN: 7a32a2ea-0f2d-4bdb-9d28-2bbe74931000
+2024-10-08 03:06:09,466 - INFO - PAYMENT_API_URL: https://www.plutuscloudservice.in:8201/API/CloudBasedIntegration/V1
+2024-10-08 03:06:09,598 - DEBUG - This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get Storage Tracing data.
+2024-10-08 03:06:10,415 - WARNING -  * Debugger is active!
+2024-10-08 03:06:10,430 - INFO -  * Debugger PIN: 462-687-871
+2024-10-08 04:06:00,968 - INFO - request: 1234567899
+2024-10-08 04:06:00,986 - INFO - 127.0.0.1 - - [08/Oct/2024 04:06:00] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:06:01,144 - INFO - 127.0.0.1 - - [08/Oct/2024 04:06:01] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:06:42,484 - INFO - request: 1234567899
+2024-10-08 04:06:42,485 - INFO - 127.0.0.1 - - [08/Oct/2024 04:06:42] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:06:42,793 - INFO - 127.0.0.1 - - [08/Oct/2024 04:06:42] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:07:06,804 - INFO - request: 1234567899
+2024-10-08 04:07:06,805 - INFO - 127.0.0.1 - - [08/Oct/2024 04:07:06] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:07:07,118 - INFO - 127.0.0.1 - - [08/Oct/2024 04:07:07] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:11:42,887 - INFO -  * Detected change in 'C:\\Users\\Windows 10\\Desktop\\test_hotel_server\\app\\routes.py', reloading
+2024-10-08 04:11:43,496 - INFO -  * Restarting with stat
+2024-10-08 04:11:43,712 - INFO - logger is ready !
+2024-10-08 04:11:45,620 - INFO - PAYMENT_MERCHANT_ID: 737783
+2024-10-08 04:11:45,621 - INFO - PAYMENT_SECURITY_TOKEN: 7a32a2ea-0f2d-4bdb-9d28-2bbe74931000
+2024-10-08 04:11:45,622 - INFO - PAYMENT_API_URL: https://www.plutuscloudservice.in:8201/API/CloudBasedIntegration/V1
+2024-10-08 04:11:46,121 - DEBUG - This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get Storage Tracing data.
+2024-10-08 04:11:48,732 - WARNING -  * Debugger is active!
+2024-10-08 04:11:48,738 - INFO -  * Debugger PIN: 462-687-871
+2024-10-08 04:12:11,231 - INFO - request: 1234567899
+2024-10-08 04:12:11,231 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:11] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:12:11,500 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:11] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:12:28,778 - INFO - request: 1234567899
+2024-10-08 04:12:28,782 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:28] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:12:29,131 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:29] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:14:30,746 - INFO - request: 1234567899
+2024-10-08 04:14:30,748 - INFO - 127.0.0.1 - - [08/Oct/2024 04:14:30] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:14:31,011 - INFO - 127.0.0.1 - - [08/Oct/2024 04:14:31] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:19:52,294 - INFO - request: 1234567899
+2024-10-08 04:19:52,295 - INFO - 127.0.0.1 - - [08/Oct/2024 04:19:52] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:19:52,558 - INFO - 127.0.0.1 - - [08/Oct/2024 04:19:52] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:22:10,461 - INFO - request: 1234567899
+2024-10-08 04:22:10,462 - INFO - 127.0.0.1 - - [08/Oct/2024 04:22:10] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:22:10,726 - INFO - 127.0.0.1 - - [08/Oct/2024 04:22:10] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:24:18,045 - INFO - request: 1234567899
+2024-10-08 04:24:18,046 - INFO - 127.0.0.1 - - [08/Oct/2024 04:24:18] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:24:18,309 - INFO - 127.0.0.1 - - [08/Oct/2024 04:24:18] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:25:05,235 - INFO - request: 1234567899
+2024-10-08 04:25:05,237 - INFO - 127.0.0.1 - - [08/Oct/2024 04:25:05] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:25:05,548 - INFO - 127.0.0.1 - - [08/Oct/2024 04:25:05] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:27:05,246 - INFO - request: 1234567899
+2024-10-08 04:27:05,247 - INFO - 127.0.0.1 - - [08/Oct/2024 04:27:05] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:27:05,510 - INFO - 127.0.0.1 - - [08/Oct/2024 04:27:05] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:29:41,434 - INFO - request: 1234567899
+2024-10-08 04:29:41,435 - INFO - 127.0.0.1 - - [08/Oct/2024 04:29:41] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:29:41,700 - INFO - 127.0.0.1 - - [08/Oct/2024 04:29:41] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:30:45,045 - INFO - request: 1234567899
+2024-10-08 04:30:45,046 - INFO - 127.0.0.1 - - [08/Oct/2024 04:30:45] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:30:45,313 - INFO - 127.0.0.1 - - [08/Oct/2024 04:30:45] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:32:29,759 - INFO - request: 1234567899
+2024-10-08 04:32:29,760 - INFO - 127.0.0.1 - - [08/Oct/2024 04:32:29] "GET /fetch-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 04:32:30,025 - INFO - 127.0.0.1 - - [08/Oct/2024 04:32:30] "GET /fetch-room-details/1234567899 HTTP/1.1" 200 -
+2024-10-08 05:40:59,612 - INFO -  * Detected change in 'C:\\Users\\Windows 10\\Desktop\\test_hotel_server\\app\\routes.py', reloading
+2024-10-08 05:41:00,261 - INFO -  * Restarting with stat
+2024-10-08 05:41:00,412 - INFO - logger is ready !
+2024-10-08 05:41:01,972 - INFO - PAYMENT_MERCHANT_ID: 737783
+2024-10-08 05:41:01,973 - INFO - PAYMENT_SECURITY_TOKEN: 7a32a2ea-0f2d-4bdb-9d28-2bbe74931000
+2024-10-08 05:41:01,973 - INFO - PAYMENT_API_URL: https://www.plutuscloudservice.in:8201/API/CloudBasedIntegration/V1
+2024-10-08 05:41:02,283 - DEBUG - This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get Storage Tracing data.
+2024-10-08 05:41:03,900 - WARNING -  * Debugger is active!
+2024-10-08 05:41:03,905 - INFO -  * Debugger PIN: 462-687-871
+2024-10-08 06:36:41,074 - INFO -  * Detected change in 'C:\\Users\\Windows 10\\Desktop\\test_hotel_server\\app\\routes.py', reloading
+2024-10-08 06:36:41,494 - INFO -  * Restarting with stat
+2024-10-08 06:36:41,645 - INFO - logger is ready !

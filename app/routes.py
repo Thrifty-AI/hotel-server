@@ -57,7 +57,12 @@ images_urls = {
                 'image_dining_hall': ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h9.jpeg','https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h10.jpeg'],
                 'image_standard_room' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h11.jpeg'],
                 'image_deluxe_room' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h12.jpg'],
-                'image_play_ground' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/h12.jpg']
+                'image_balcony' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P1.png'],
+                'image_building' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P2.png', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P3.png'],
+                'image_rooftop' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P4.png', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P5.png', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P6.png', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P7.png', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P8.png'],
+                'image_dining_hall' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P11.png'],
+                'image_bedroom' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P12.png', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P13.png'],
+                'image_kitchen' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P14.png'],
                }
 
 

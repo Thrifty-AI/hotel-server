@@ -199,3 +199,40 @@ def register_routes(app):
             return {'message': response}
         
         return 'invalid function'
+
+    @app.route('/wayfinder', methods=['POST'])
+    def api_wayfinder():
+        data = request.get_json()
+        print(data)
+        start = request.args.get('start')
+        end = data.get('function_arguments')
+        # print(type(end))
+        url = wayfinder(start, end)
+        print("url:", url)
+        return jsonify({"message":{"urls": [url]}})
+
+    def way_to_washroom():
+        url_of_washroom = "https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/map_to_washroom.png"
+        return url_of_washroom
+
+    def way_to_foodCourt():
+        url_of_foodCourt = "https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/map_to_foodcourt.png"
+        return url_of_foodCourt
+
+    def way_to_fireExit():
+        url_of_fireExit = "https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/map_to_fireExit.png"
+        return url_of_fireExit
+
+    def wayfinder(start, end):
+        end_str = end
+        
+        if isinstance(end, dict):
+            end_str = end["destination"]
+        if "washroom" in end_str.lower():
+            return way_to_washroom()
+        elif "food court" in end_str.lower():
+            return way_to_foodCourt()
+        elif "fire exit" in end_str.lower():
+            return way_to_fireExit()
+        else:
+            return "Image url not present: " + end_str

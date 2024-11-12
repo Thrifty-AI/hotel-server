@@ -63,6 +63,7 @@ images_urls = {
                 'image_dining_hall' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P11.png'],
                 'image_bedroom' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P12.png', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P13.png'],
                 'image_kitchen' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P14.png'],
+                'image_gym' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P15.jpg', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P16.jpg'],
                }
 
 

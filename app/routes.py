@@ -197,6 +197,7 @@ def register_routes(app):
 
     @app.route("/fetch-images", methods=['POST'])
     def fetch_images():
+        logging.info(f"request to fetch image: {request}")
         response = {}
         data = request.get_json()
         if data['function_name'] in images_urls:

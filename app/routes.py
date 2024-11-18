@@ -64,6 +64,11 @@ images_urls = {
                 'image_bedroom' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P12.png', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P13.png'],
                 'image_kitchen' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/P14.png'],
                 'image_gym' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/p15.jpg', 'https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/p16.jpg'],
+                'image_businessCentre' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej5.png'],
+                'image_club' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej4.png'],
+                'image_ground' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej3.png'],
+                'image_pool' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej2.png'],
+                'image_map' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej1.png'],
                }
 
 

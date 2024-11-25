@@ -223,11 +223,13 @@ def register_routes(app):
     
     @app.route("/redirect_url", methods=['POST'])
     def redirect_url():
-        logging.info(f"request to fetch image: {request}")
+        logging.info(f"request to fetch redirect url: {request}")
         response = {}
         data = request.get_json()
-        if data['function']['enum_value'] in images_urls:
-            response['urls'] = redirect_link[data['function']['enum_value']]
+        data = data['function'].get_json()
+        logging.info(f"type of received data: {type(data)}")
+        if data['enum_value'] in images_urls:
+            response['urls'] = redirect_link[data['enum_value']]
             print(response)
             return {'message': response}
         

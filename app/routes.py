@@ -226,7 +226,7 @@ def register_routes(app):
         logging.info(f"request to fetch redirect url: {request}")
         response = {}
         data = request.get_json()
-        data = data['function'].get_json()
+        data = data['function']
         logging.info(f"type of received data: {type(data)}")
         if data['enum_value'] in images_urls:
             response['urls'] = redirect_link[data['enum_value']]

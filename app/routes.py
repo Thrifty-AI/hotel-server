@@ -228,7 +228,7 @@ def register_routes(app):
         data = request.get_json()
         data = data['function']
         logging.info(f"type of received data: {type(data)}")
-        if data['enum_value'] in images_urls:
+        if data['enum_value'] in redirect_link:
             response['urls'] = redirect_link[data['enum_value']]
             logging.info(f"response sent: {response}")
             return {'message': response}

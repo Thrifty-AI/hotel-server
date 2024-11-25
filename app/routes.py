@@ -207,6 +207,19 @@ def register_routes(app):
         
         return 'invalid function'
 
+
+    @app.route("/fetch-images2", methods=['POST'])
+    def fetch_images2():
+        logging.info(f"request to fetch image: {request}")
+        response = {}
+        data = request.get_json()
+        if data['function']['enum_value'] in images_urls:
+            response['urls'] = images_urls[data['function']['enum_value']]
+            print(response)
+            return {'message': response}
+        
+        return 'invalid function'
+
     @app.route('/wayfinder', methods=['POST'])
     def api_wayfinder():
         data = request.get_json()

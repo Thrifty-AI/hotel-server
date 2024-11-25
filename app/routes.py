@@ -71,6 +71,7 @@ images_urls = {
                 'image_map' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej2.png'],
                }
 
+redirect_link = {'contact-us': 'https://odysseymt.com/contact', 'about-us': 'https://odysseymt.com/contact'}
 
 def register_routes(app):
     @app.route("/")
@@ -215,6 +216,18 @@ def register_routes(app):
         data = request.get_json()
         if data['function']['enum_value'] in images_urls:
             response['urls'] = images_urls[data['function']['enum_value']]
+            print(response)
+            return {'message': response}
+        
+        return 'invalid function'
+    
+    @app.route("/redirect_url", methods=['POST'])
+    def redirect_url():
+        logging.info(f"request to fetch image: {request}")
+        response = {}
+        data = request.get_json()
+        if data['function']['enum_value'] in images_urls:
+            response['urls'] = redirect_link[data['function']['enum_value']]
             print(response)
             return {'message': response}
         

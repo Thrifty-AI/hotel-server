@@ -230,7 +230,7 @@ def register_routes(app):
         logging.info(f"type of received data: {type(data)}")
         if data['enum_value'] in images_urls:
             response['urls'] = redirect_link[data['enum_value']]
-            print(response)
+            logging.info(f"response sent: {response}")
             return {'message': response}
         
         return 'invalid function'

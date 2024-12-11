@@ -6,7 +6,14 @@ from datetime import datetime
 import os
 import base64
 import logging
+from google.oauth2.credentials import Credentials
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
+import datetime
 
+
+# Define OAuth scopes
+SCOPES = ['https://www.googleapis.com/auth/calendar']
 
 data = [
     {
@@ -271,3 +278,71 @@ def register_routes(app):
             return way_to_fireExit()
         else:
             return "Image url not present: " + end_str
+
+    @app.route('/google-calender', methods = ['GET'])
+    def google_claender_api ():
+
+        data = request.get_json()
+        logging.info(f'request to google calender: {data}')
+        params = data['function']['parameter']['meeting_details']
+
+        params_list = [item.strip() for item in params.strip("[]").split(",")]
+
+        if params_list and len(params_list) < 4:
+            return jsonify({'error': 'missing arguments'}), 400
+        
+        if params_list[2].lower() == 'start time' or params_list[3].lower() == 'end time':
+            return jsonify({'error': 'missing start or end time'}), 400
+
+        try:
+            service = authenticate_google()
+            create_event(service)
+
+            return jsonify({'message': 'Google calender api called successfully!'}), 200
+
+        except Exception as e:
+
+            return jsonify({'error': str(e)}), 500
+
+
+
+    def create_event(service, summary, start_time, end_time, date): 
+        timezone_addedTime= "05:30"
+        timezone = 'Asia/Kolkata'
+        """Create an event on the primary Google Calendar."""
+        # Define event details
+        event = {
+            'summary': summary,
+            # 'location': '123 Main Street, New York, NY',
+            # 'description': 'Discuss project details and requirements.',
+            'start': {
+                'dateTime': f'{date}T{start_time}+{timezone_addedTime}',
+                'timeZone': timezone,
+            },
+            'end': {
+                'dateTime': f'{date}T{end_time}+{timezone_addedTime}',
+                'timeZone': timezone,
+            },
+
+            # 'attendees': [
+            #     {'email': 'example@gmail.com'}
+            # ],
+            'reminders': {
+                'useDefault': False,
+                'overrides': [
+                    {'method': 'email', 'minutes': 24 * 60},  # 24 hours before
+                    {'method': 'popup', 'minutes': 10},      # 10 minutes before
+                ],
+            },
+        }
+
+        # Add event to calendar
+        event_result = service.events().insert(calendarId='primary', body=event).execute()
+        logging.info(f"Event created: {event_result.get('htmlLink')}")
+
+    def authenticate_google():
+        """Authenticate with Google OAuth2 and return an authorized Calendar service."""
+        flow = InstalledAppFlow.from_client_secrets_file('../client_secrets.json')  # Path to client_secrets.json
+        creds = flow.run_local_server(port=0)
+        service = build('calendar', 'v3', credentials=creds)
+        return service

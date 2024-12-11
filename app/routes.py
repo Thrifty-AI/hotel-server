@@ -76,6 +76,8 @@ images_urls = {
                 'image_ground' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej3.png'],
                 'image_pool' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej4.png'],
                 'image_map' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej2.png'],
+                'true' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/correct_answer.jpg'],
+                'false' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/wrong_answer.jpg'],
                }
 
 redirect_link = {'contact-us': 'https://odysseymt.com/contact', 'about-us': 'https://odysseymt.com/about-us', 'placement': 'https://odysseymt.com/placement', 'blog': 'https://odysseymt.com/blog'}

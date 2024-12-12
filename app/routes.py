@@ -77,7 +77,7 @@ images_urls = {
                 'image_pool' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej4.png'],
                 'image_map' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej2.png'],
                 'true' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/correct_answer.jpg'],
-                'false' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/wrong_answer.jpg'],
+                'false' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/wrong_answer.jpeg'],
                }
 
 redirect_link = {'contact-us': 'https://odysseymt.com/contact', 'about-us': 'https://odysseymt.com/about-us', 'placement': 'https://odysseymt.com/placement', 'blog': 'https://odysseymt.com/blog'}
@@ -225,7 +225,7 @@ def register_routes(app):
         data = request.get_json()
         if data['function']['enum_value'] in images_urls:
             response['urls'] = images_urls[data['function']['enum_value']]
-            print(response)
+            logging.info(response)
             return {'message': response}
         
         return 'invalid function'

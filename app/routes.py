@@ -78,7 +78,12 @@ images_urls = {
                 'image_map' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/godrej2.png'],
                 'true' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/correct_answer.jpg'],
                 'false' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/wrong_answer.jpeg'],
-                'image_4dx-features' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/4dx-features.png'] 
+                'image_4dx-features' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/4dx-features.png']
+                'image_handwash_steps': ['https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/handwash.png'],
+                # 'image_cinepolis-junior': [' '],
+                'image_maximization-chart-coffeeTree': ['https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/maximisation-chart-coffeeTree.png'],
+                'image_maximization-chart-concessions': ['https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/maximisation-chart-concessions.png'],
+                # 'image_bill-me-back-office-page' : ['']
                }
 
 redirect_link = {'contact-us': 'https://odysseymt.com/contact', 'about-us': 'https://odysseymt.com/about-us', 'placement': 'https://odysseymt.com/placement', 'blog': 'https://odysseymt.com/blog'}

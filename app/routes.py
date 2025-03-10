@@ -80,10 +80,18 @@ images_urls = {
                 'false' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/test_platform/wrong_answer.jpeg'],
                 'image_4dx-features' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/4dx-features.png'],
                 'image_handwash_steps': ['https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/handwash.png'],
-                # 'image_cinepolis-junior': [' '],
                 'image_maximization-chart-coffeeTree': ['https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/maximisation-chart-coffeeTree.png'],
                 'image_maximization-chart-concessions': ['https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/maximisation-chart-concessions.png'],
-                # 'image_bill-me-back-office-page' : ['']
+
+                # Jubilant Images
+                'image_2-cyanopyridine': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_2-cyanopyridine.png'],
+                'image_4-cyanopyridine': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_4-cyanopyridine.png'],
+                'image_alpha-picoline': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_alpha-picoline.png'],
+                'image_beta-picoline': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_beta-picoline.png'],
+                'image_3-cyanopyridine': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_3-cyanopyridine.png'],
+                'image_piperidine': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_piperidine.png'],
+                'image_gamma-picoline': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_gamma-picoline.png'],
+                'image_pyridine': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_pyridine.png'],
     
   "image_trolley-sales-technique-serving": [
     "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_trolley-sales-technique-serving.png"

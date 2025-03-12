@@ -92,6 +92,10 @@ images_urls = {
                 'image_piperidine': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_piperidine.png'],
                 'image_gamma-picoline': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_gamma-picoline.png'],
                 'image_pyridine': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_pyridine.png'],
+                'image_pyridine-carbon-footprint': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_pyridine-carbon-footprint.png'],
+                'image_3-cyano-pyridine-carbon-footprint': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_3-cyano-pyridine-carbon-footprint.png'],
+                'image_ethical-procedures-chart': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_ethical-procedures-chart.png'],
+                'image_project-management': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_project-management.png'],
 
                 #Ather Images
                 'image_ather_rizta-s': ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_rizta-s.png'],

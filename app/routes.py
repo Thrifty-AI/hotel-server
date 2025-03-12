@@ -94,15 +94,15 @@ images_urls = {
                 'image_pyridine': ['https://storage.googleapis.com/public_thrifty_storage_bucket/jubilant/image_pyridine.png'],
 
                 #Ather Images
-                'image_ather_rizta-s': ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_rizta-s'],
-                'image_ather_rizta-z': ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_rizta-z'],
-                'image_ather_pangong-blue-duo-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_pangong-blue-duo-colour'],
-                'image_ather_deccan-grey-mono-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_deccan-grey-mono-colour'],
-                'image_ather_siachen-white-mono-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_siachen-white-mono-colour'],
-                'image_ather_cardamom-green-duo-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_cardamom-green-duo-colour'],
-                'image_ather_deccan-grey-duo-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_deccan-grey-duo-colour'],
-                'image_ather_alphonso-yellow-duo-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_alphonso-yellow-duo-colour'],
-                'image_ather_pangong-blue-mono-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_pangong-blue-mono-colour'],
+                'image_ather_rizta-s': ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_rizta-s.png'],
+                'image_ather_rizta-z': ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_rizta-z.png'],
+                'image_ather_pangong-blue-duo-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_pangong-blue-duo-colour.png'],
+                'image_ather_deccan-grey-mono-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_deccan-grey-mono-colour.png'],
+                'image_ather_siachen-white-mono-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_siachen-white-mono-colour.png'],
+                'image_ather_cardamom-green-duo-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_cardamom-green-duo-colour.png'],
+                'image_ather_deccan-grey-duo-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_deccan-grey-duo-colour.png'],
+                'image_ather_alphonso-yellow-duo-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_alphonso-yellow-duo-colour.png'],
+                'image_ather_pangong-blue-mono-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_pangong-blue-mono-colour.png'],
                 
     
   "image_trolley-sales-technique-serving": [

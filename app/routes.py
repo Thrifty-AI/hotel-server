@@ -108,8 +108,15 @@ images_urls = {
                 'image_ather_deccan-grey-duo-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_deccan-grey-duo-colour.png'],
                 'image_ather_alphonso-yellow-duo-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_alphonso-yellow-duo-colour.png'],
                 'image_ather_pangong-blue-mono-colour' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_pangong-blue-mono-colour.png'],
+                'image_ather_boot-space' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_boot-space.png'],
+                'image_ather_dashboard' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_dashboard.png'],
+                'image_ather_live-location' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_live-location.png'],
+                'image_ather_ather-connect-app' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_ather-connect-app.png'],
+                'image_ather_theft-tow-alerts' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_theft-tow-alerts.png'],
+                'image_ather_rizta-front-view' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_rizta-front-view.png'],
+                'image_ather_ping-my-scooter' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_ping-my-scooter.png'],
                 
-    
+                
   "image_trolley-sales-technique-serving": [
     "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_trolley-sales-technique-serving.png"
   ],

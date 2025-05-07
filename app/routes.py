@@ -121,83 +121,90 @@ images_urls = {
                 'image_ather_ping-my-scooter' : ['https://storage.googleapis.com/public_thrifty_storage_bucket/ather/image_ather_ping-my-scooter.png'],
                 
                 
-  "image_trolley-sales-technique-serving": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_trolley-sales-technique-serving.png"
-  ],
-  "image_hybrid-concessions-upselling": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_hybrid-concessions-upselling.png"
-  ],
-  "image_coffeetree-transaction-process": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_coffeetree-transaction-process.png"
-  ],
-  "image_coffee-tree-order-serving": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_coffee-tree-order-serving.png"
-  ],
-  "image_4dx-effects": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_4dx-effects.png"
-  ],
-  "image_bill-me-back-office-print": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_bill-me-back-office-print.png"
-  ],
-  "image_maximization-chart-coffee-tree": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_maximization-chart-coffee-tree.png"
-  ],
-  "image_bill-me-back-office": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_bill-me-back-office.png"
-  ],
-  "image_bill-me-back-office-ebill": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_bill-me-back-office-ebill.png"
-  ],
-  "image_bill-me-back-office-bills": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_bill-me-back-office-bills.png"
-  ],
-  "image_hybrid-concessions-transaction": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_hybrid-concessions-transaction.png"
-  ],
-  "image_trolley-sales-technique-transaction": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_trolley-sales-technique-transaction.png"
-  ],
-  "image_4dx-locations": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_4dx-locations.png"
-  ],
-  "image_cinepolis-junior": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis-junior.png"
-  ],
-  "image_maximization-chart-concessions": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_maximization-chart-concessions.png"
-  ],
-  "image_cinepolis_payment_process": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis_payment_process.png"
-  ],
-  "image_handwash-process": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_handwash-process.png"
-  ],
-  "image_coffeetree-sales-technique": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_coffeetree-sales-technique.png"
-  ],
-  "image_cinepolis-concessions-serving": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis-concessions-serving.png"
-  ],
-  "image_hybrid-concessions-order-serving": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_hybrid-concessions-order-serving.png"
-  ],
-  "image_order-of-service-preparation": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_order-of-service-preparation.png"
-  ],
-  "image_cinepolis-concessions-sales": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis-concessions-sales.png"
-  ],
-  "image_trolley-sales-technique": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_trolley-sales-technique.png"
-  ],
-  "image_cinepolis-concessions-transaction": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis-concessions-transaction.png"
-  ],
-  "image_cinepolis_sales_technique": [
-    "https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis_sales_technique.png"
-  ],
-
-               }
+              #Cinepolis Images
+              "image_trolley-sales-technique-serving": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_trolley-sales-technique-serving.png"],
+              "image_hybrid-concessions-upselling": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_hybrid-concessions-upselling.png"],
+              "image_coffeetree-transaction-process": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_coffeetree-transaction-process.png"],
+              "image_coffee-tree-order-serving": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_coffee-tree-order-serving.png"],
+              "image_4dx-effects": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_4dx-effects.png"],
+              "image_bill-me-back-office-print": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_bill-me-back-office-print.png"],
+              "image_maximization-chart-coffee-tree": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_maximization-chart-coffee-tree.png"],
+              "image_bill-me-back-office": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_bill-me-back-office.png"],
+              "image_bill-me-back-office-ebill": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_bill-me-back-office-ebill.png"],
+              "image_bill-me-back-office-bills": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_bill-me-back-office-bills.png"],
+              "image_hybrid-concessions-transaction": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_hybrid-concessions-transaction.png"],
+              "image_trolley-sales-technique-transaction": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_trolley-sales-technique-transaction.png"],
+              "image_4dx-locations": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_4dx-locations.png"],
+              "image_cinepolis-junior": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis-junior.png"],
+              "image_maximization-chart-concessions": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_maximization-chart-concessions.png"],
+              "image_cinepolis_payment_process": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis_payment_process.png"],
+              "image_handwash-process": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_handwash-process.png"],
+              "image_coffeetree-sales-technique": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_coffeetree-sales-technique.png"],
+              "image_cinepolis-concessions-serving": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis-concessions-serving.png"],
+              "image_hybrid-concessions-order-serving": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_hybrid-concessions-order-serving.png"],
+              "image_order-of-service-preparation": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_order-of-service-preparation.png"],
+              "image_cinepolis-concessions-sales": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis-concessions-sales.png"],
+              "image_trolley-sales-technique": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_trolley-sales-technique.png"],
+              "image_cinepolis-concessions-transaction": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis-concessions-transaction.png"],
+              "image_cinepolis_sales_technique": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis_sales_technique.png"],
+              "image_auto-reconcile-option": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_auto-reconcile-option.png"],
+              "image_awaiting-login-return-float-option": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_awaiting-login-return-float-option" ],
+              "image_back-office-to-cinema-manager-login": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_back-office-to-cinema-manager-login.png"],
+              "image_booking-by-show-and-screen-report": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_booking-by-show-and-screen-report.png"],  
+              "image_bookings": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_bookings.png"], 
+              "image_calendar-button": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_calendar-button.png"], 
+              "image_cash-up-confirmation-window": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cash-up-confirmation-window.png"], 
+              "image_cash-up-session-button-location": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cash-up-session-button-location.png"], 
+              "image_cash-withdrawal-confirmation-funds-update": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cash-withdrawal-confirmation-funds-update.png"], 
+              "image_cashdesk-button-and-date-selection": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cashdesk-button-and-date-selection.png"], 
+              "image_cashdesk-menu-overview": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cashdesk-menu-overview.png"], 
+              "image_cashdesk-overview-day-status": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cashdesk-overview-day-status.png"], 
+              "image_check-fund-balances-confirmation": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_check-fund-balances-confirmation.png"], 
+              "image_cinema-manager-dashboard-overview": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinema-manager-dashboard-overview.png"], 
+              "image_cinema-manager-login-window": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinema-manager-login-window.png"], 
+              "image_cinepolis-review-reports-generate": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis-review-reports-generate.png"], 
+              "image_cinepolis-vista-cash-desk": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_cinepolis-vista-cash-desk.png"], 
+              "image_CIPL-Electronics-Report": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_CIPL-Electronics-Report.png"], 
+              "image_click_close_day_button": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_click_close_day_button.png"], 
+              "image_closed-sales-sessions-menu": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_closed-sales-sessions-menu.png"], 
+              "image_confirm_all_button": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_confirm_all_button.png"], 
+              "image_create-sales-sessions-button-location": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_create-sales-sessions-button-location.png"], 
+              "image_create-sales-sessions-popup": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_create-sales-sessions-popup.png"], 
+              "image_create-sales-sessions-window-details": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_create-sales-sessions-window-details.png"], 
+              "image_dashboard-kpi-view": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_dashboard-kpi-view.png"], 
+              "image_day_close_conditions_check": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_day_close_conditions_check.png"], 
+              "image_day-unopened-status-open-day-button": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_day-unopened-status-open-day-button.png"], 
+              "image_dispatch_confirmation_popup": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_dispatch_confirmation_popup.png"], 
+              "image_dispatch-deposits-button-location": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_dispatch-deposits-button-location.png"], 
+              "image_dispatch-deposits-courier-badge": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_dispatch-deposits-courier-badge.png"],   
+              "image_dispatch-deposits-deactivate-column": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_dispatch-deposits-deactivate-column.png"],
+              "image_dispatch-deposits-dispatch-button": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_dispatch-deposits-dispatch-button.png"],
+              "image_dispatch-deposits-sign-in-details": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_dispatch-deposits-sign-in-details.png"],
+              "image_dispatch-deposits-window-checkboxes": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_dispatch-deposits-window-checkboxes.png"],
+              "image_dispose_diposits_closing_day_button": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_dispose_diposits_closing_day_button.png"],
+              "image_drop-from-cash-drawer-menu": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_drop-from-cash-drawer-menu.png"],
+              "image_funds-section-breakdown": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_funds-section-breakdown.png"],
+              "image_in-transit-section-overview": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_in-transit-section-overview.png"],
+              "image_inventory_status_report_check": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_inventory_status_report_check.png"],
+              "image_login-screen-input": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_login-screen-input.png"],
+              "image_navigation-panel-menu-items": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_navigation-panel-menu-items.png"], 
+              "image_next_button": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_next_button.png"], 
+              "image_opening-float-menu-outgoing": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_opening-float-menu-outgoing.png"], 
+              "image_overview-menu-bar-calendar": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_overview-menu-bar-calendar.png"], 
+              "image_reporting-steps": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_reporting-steps.png"], 
+              "image_reserves-cash-reserv-detail": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_reserves-cash-reserv-detail.png"], 
+              "image_return-float-button-unused-float": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_return-float-button-unused-float.png"], 
+              "image_return-float-confirmation-window": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_return-float-confirmation-window.png"],   
+              "image_return-float-window-used-float": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_return-float-window-used-float.png"], 
+              "image_returned-float-menu-incoming": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_returned-float-menu-incoming.png"], 
+              "image_service-recovery": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_service-recovery.png"], 
+              "image_successful_dispatch_message": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_successful_dispatch_message.png"], 
+              "image_SUS-Scanton-US": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_SUS-Scanton-US.png"], 
+              "image_transfer-to-fund-button-location": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_transfer-to-fund-button-location.png"], 
+              "image_transfer-to-fund-window-destination": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_transfer-to-fund-window-destination.png"], 
+              "image_vista-refunds-via-cinema-manager": ["https://storage.googleapis.com/public_thrifty_storage_bucket/cinepolis/image_vista-refunds-via-cinema-manager.png"],   
+               
+            }
 
 redirect_link = {'contact-us': 'https://odysseymt.com/contact', 'about-us': 'https://odysseymt.com/about-us', 'placement': 'https://odysseymt.com/placement', 'blog': 'https://odysseymt.com/blog'}
 
